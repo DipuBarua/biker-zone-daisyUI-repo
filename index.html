@@ -69,10 +69,10 @@
 
         <!-- carousel or slider banner  -->
 
-        <div class="carousel w-full bg-bike-primary-bg">
+        <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
             <!-- bike slide 1  -->
             <div id="slide1" class="carousel-item relative w-full">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24  gap-10">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-10 items-center">
                     <div class="flex-1 space-y-7">
                         <h1 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -88,7 +88,7 @@
             </div>
             <!-- bike slide 2  -->
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24  gap-10">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24  gap-10 items-center">
                     <div class="flex-1 space-y-7">
                         <h1 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -104,11 +104,11 @@
             </div>
             <!-- bike slide 3  -->
             <div id="slide3" class="carousel-item relative w-full">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24  gap-10">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24  gap-10 items-center">
                     <div class="flex-1 space-y-7">
                         <h1 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                        <button class="btn text-white">Purchase</button>
+                        <button class="btn bg-bike-primary text-white">Purchase</button>
                     </div>
                     <div class="flex-1"><img src="images/slider/bike3.png" class="w-[400]" /></div>
                 </div>
@@ -120,7 +120,7 @@
             </div>
             <!-- bike slide 4  -->
             <div id="slide4" class="carousel-item relative w-full">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24  gap-10">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24  gap-10 items-center">
                     <div class="flex-1 space-y-7">
                         <h1 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -249,7 +249,88 @@
 
         </section>
 
+        <!-- FAQ section  -->
+        <section class="my-24">
+            <h2 class="text-5xl font-semibold text-center mb-6">Frequently Asked <span class="text-bike-primary">Questions</span></h2>
+
+            <div class="hero ">
+                <div class="hero-content flex-col lg:flex-row gap-20">
+                    <img src="images/others/faq.png" class="w-3/4 lg:max-w-sm rounded-lg " />
+                    <div>
+                        <!-- faq 1  -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                What are the most important things I should know about riding a bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant
+                                    bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- faq 2  -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                How can I tell if my helmet is old and I need a new one?
+                            </div>
+                            <div class="collapse-content">
+                                <p>hello</p>
+                            </div>
+                        </div>
+                        <!-- faq 3  -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                My bike has been in storage is it safe to ride?
+                            </div>
+                            <div class="collapse-content">
+                                <p>hello</p>
+                            </div>
+                        </div>
+                        <!-- faq 4  -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                What rules should I follow when riding my bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p>hello</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
+
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <div class="grid grid-flow-row gap-3">
+            <div class=" flex flex-row gap-6">
+                <a href="">Download Now</a>
+                <a href="">License</a>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-6">
+                <a href="">About</a>
+                <a href="">Features</a>
+                <a href="">Pricing</a>
+                <a href="">Careers</a>
+                <a href="">Help</a>
+                <a href="">Privacy Policy</a>
+            </div>
+
+            <small>&copy; 2020 bike. All rights reserved</small>
+        </div>
+        <div>
+            <span class="footer-title">Get the App</span>
+            <div class="grid grid-flow-row gap-4 w-36">
+                <a><img src="images/others/android.png" alt=""></a>
+                <a><img src="images/others/ios.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
